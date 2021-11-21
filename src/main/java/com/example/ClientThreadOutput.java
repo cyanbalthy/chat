@@ -5,9 +5,7 @@ import java.util.zip.DataFormatException;
 
 
 public class ClientThreadOutput extends Thread{
-    ClientThreadInput input = null;
     Socket mioSocket;
-    String stringaUtente;
     BufferedReader in; //stream input
     String stringaRicevutadalserver;
     ChatClient client;

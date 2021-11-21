@@ -14,7 +14,6 @@ public class ClientThreadInput extends Thread{
     String stringaRicevutadalserver;
     BufferedReader in; //stream input
     DataOutputStream out; //stream output
-    Thread manda_mess = new Thread();
     ChatClient client;
 
     public ClientThreadInput(Socket mioSocket,BufferedReader in,DataOutputStream out, ChatClient client){
