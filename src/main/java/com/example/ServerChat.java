@@ -5,7 +5,13 @@ import java.util.*;
 
 public class ServerChat{
 
-    HashMap<String, ServerThread> listaUtenti;
+    HashMap<String, ServerThread> listaUtenti = new HashMap();
+
+    public static void main( String[] args )
+    {
+        ServerChat s = new ServerChat();
+        s.start();
+    }
 
     public void start(){
         try{

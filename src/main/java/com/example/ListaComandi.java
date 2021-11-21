@@ -15,5 +15,5 @@ public class ListaComandi {
     public static final String COMMAND_LISTUT = prefix + listaUtenti + suffix;
     public static final String COMMAND_LISTCOMM = prefix + listaComandi + suffix;
     public static final String COMMAND_FIN = prefix + fineConnessione + suffix;
-    public static final String COMMAND_FORMULE = prefix + "comando" + suffix;
+    public static final String COMMAND_FORMULA = prefix + "comando" + suffix;
 }
