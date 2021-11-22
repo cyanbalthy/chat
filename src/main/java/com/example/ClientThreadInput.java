@@ -35,7 +35,7 @@ public class ClientThreadInput extends Thread{
                 System.out.println("Errore non si inserisce i caratteri speciali nel messaggio\n");
                 }
             }while(stringaNomeUtente.matches("[!@#$%&*()_+=|<>?{}\\[\\]~-]"));
-            out.writeBytes(stringaNomeUtente);
+            out.writeBytes(stringaNomeUtente + "\n");
 
             String[] stringaDivisa;
             for(;;){
@@ -58,4 +58,5 @@ public class ClientThreadInput extends Thread{
             System.exit(1);
         }
     }
+
 }
